@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
+
+:root {
+  --background-primary: #1a1a1a;
+  --background-secondary: #222222;
+  --background-secondary-alt: #2c2c2c;
+  --text-normal: #d9d9d9;
+  --text-muted: #6c6c6c;
+  --text-link: #4a90e2;
+  --interactive-normal: #4a90e2;
+  --interactive-hover: #3c81d3;
+  --interactive-active: #3275c5;
+  --background-accent: #4a4a4a;
+}
+
+* {
+  font-family: 'Ubuntu Mono', monospace !important;
+}
+
+.theme-dark {
+  --background-primary: #1a1a1a;
+  --background-secondary: #222222;
+  --background-secondary-alt: #2c2c2c;
+  --text-normal: #d9d9d9;
+  --text-muted: #6c6c6c;
+  --text-link: #4a90e2;
+  --interactive-normal: #4a90e2;
+  --interactive-hover: #3c81d3;
+  --interactive-active: #3275c5;
+  --background-accent: #4a4a4a;
+}
+
+.guild-header,
+.channel-members,
+.channel-header,
+.channel-topic,
+.guild-header,
+.chat,
+.member,
+.title,
+.tab-bar,
+.user-settings-modal,
+.server-settings-modal,
+.server-settings-modal .section-header,
+.emojiPicker-3JmXdR,
+.inputBar-2rJnLU,
+.messagesWrapper-3lZDfY,
+.quickswitcher-container {
+  background-color: var(--background-primary) !important;
+  color: var(--text-normal) !important;
+}
+
+.container-1r6BKw,
+.quickswitcher-input,
+.header-1C9t09,
+.modal-2LIEKY,
+.modal-2LIEKY .footer-1fjuF6,
+.content-yTz4x3,
+.content-yTz4x3 textarea,
+.content-yTz4x3 input {
+  background-color: var(--background-secondary) !important;
+  color: var(--text-normal) !important;
+}
+
+.formText-3fs7AJ,
+.formText-1L-zZB,
+.label-1fMS5C,
+.select-2P8wjd,
+.select-2P8wjd .value-2F1mp9,
+.select-2P8wjd .value-2F1mp9:hover,
+.slider-1TUyFf,
+.slider-1TUyFf .sliderHandle-3TjJLz,
+.tooltip-2QfLtc {
+  background-color: var(--background-secondary-alt) !important;
+  color: var(--text-normal) !important;
+}
+
+.header-1C9t09,
+.title,
+.tab-bar,
+.modal-2LIEKY .title {
+  border-bottom: none !important;
+}
+
